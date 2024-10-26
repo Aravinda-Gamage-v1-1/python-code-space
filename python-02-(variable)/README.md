@@ -15,7 +15,7 @@ print(y)
 Variable do not need to be declared with any particular type, and can even change type they have been set.
 ```
 x = 5 # x is of type int
-x = "Aravinda" 3 # x is of type string
+x = "Aravinda" # x is of type string
 print(x)
 ```
 
