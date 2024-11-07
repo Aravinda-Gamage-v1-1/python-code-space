@@ -15,3 +15,14 @@ x = 5
 y = "Aravinda"
 print(type(x))
 print(type(y))
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+fruits = ["Apple", "Banana", "Cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
