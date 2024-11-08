@@ -43,3 +43,26 @@ A variable can have a short name (like x and y) or a more descriptive name (age,
 * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 * Variable names are case-sensitive (age, Age and AGE are three different variables)
 * A variable name cannot be any of the Python keywords.
+
+#### Global Variable
+Variable that are created outside of a function are known as global variable.
+Global variables can be used by everyone, both inside of functions and outside.
+```
+X = "awesome"
+def myfunc():
+    x = "fantastic" 
+    print("Python is " + x)
+myfunc()
+print("Python is " + x)
+```
+
+#### Global keyword
+When you created a variable inside a function, that variable is local, and can only be used inside that function.
+To create a global variable inside a function, you can you the global keyword.
+```
+def myfunc():
+    global x 
+    x = "fantastic"
+myfunc()
+print("Python is " + x)
+```
