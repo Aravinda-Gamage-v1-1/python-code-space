@@ -15,6 +15,7 @@ None type: NoneType
 #### Getting the data types
 You can get the data types of any object by using the  `type()` function.
 ```
+
 x = 5
 print(type(x))
 ```
